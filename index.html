@@ -57,6 +57,11 @@
                 </div>
             </section>
 
+            <!-- Motto Section 1 -->
+            <section class="motto-section">
+                <h2>Gyógyító mozgás az Otthona kényelmében <a href="#personal-training" class="highlight">Személyesen</a> vagy <a href="#online-training" class="highlight">Online</a></h2>
+            </section>
+
             <!-- Services Section -->
             <section class="services-section">
                 <h2>Kezelési programjaim:</h2>
@@ -79,18 +84,187 @@
                 </ul>
 
                 <div class="pricing">
-                    <h3>Időtartam és díjazás:</h3>
                     <p><strong>45 perc figyelem a Testre, 15 ezer forint befektetés az Egészségbe</strong></p>
-                    <p class="special-offer">10 alkalmas bérlet esetén MOST 12 ezer forint / alkalom.</p>
-                    <p>A díjbekérőt a konzultáció előtti napon küldöm, fizetni átutalással tud.</p>
-                    <p>Az ár a minőségi szakmai figyelmet és a személyre szabott programot tükrözi.</p>
                 </div>
             </section>
 
-            <!-- FAQ Section -->
-            <section class="faq-section">
-                <h2>Gyakori kérdések</h2>
-                
+            <!-- About Me Section -->
+            <section class="about-section-new">
+                <div class="about-header-new">
+                    <img src="./assets/about-img.png" alt="Kuruczné Bári Szilvia" class="about-image">
+                    <div>
+                        <p class="about-initial">2015. Debreceni Egyetem, gyógytornász - fizioterapeuta Bsc</p>
+                    </div>
+                </div>
+                <button class="about-details-toggle" onclick="toggleAboutDetails()">
+                    <span>Szakmai háttér részletesen</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="about-details-content" id="aboutDetailsContent">
+                    <h3>Szakmai utam</h3>
+                    <p>Szent János Kórház - sebészet, központi intenzív terápia, belgyógyászat</p>
+                    <p>Szívszalon – kardiológia</p>
+                    <p>ArtHuman Központ - otthoni szakellátás Budapest kerületeiben</p>
+                    <p>Patocskai Gyógytorna Stúdió - otthoni szakápolás Zuglóban</p>
+                    <p>Józsefvárosi Szent Kozma Egészségügyi Központ – reumatológia</p>
+                    
+                    <p class="experience-text">Kiemelten reumatológiai, ortopédiai és traumatológiai területen, a tartáshibák kezelésében, a csípő-és térdprotézis műtétet követő rehabilitációban, stroke rehabilitációban, Parkinson-kórban szenvedők terápiájában, hasi műtéten,- mellműtéten,- és alsó végtag amputáción átesett betegek rehabilitációjában, valamint kardiológiai betegségben szenvedő páciensek kezelésében szereztem tapasztalatot.</p>
+                    
+                    <h3>Szakirányú továbbképzések, tanfolyamok:</h3>
+                    <ul>
+                        <li>Medical Flossing</li>
+                        <li>Trigger- és Tenderpont terápia</li>
+                        <li>SMR System</li>
+                        <li>Modern Scoliosis Terápia /Schroth szerint/</li>
+                        <li>McKenzie módszer A modul - a lumbális gerinc</li>
+                        <li>Vertikális mászótréningek és alkalmazásuk a fizioterápiában</li>
+                        <li>Kinematic Taping</li>
+                    </ul>
+                    
+                    <h3>Tagságok:</h3>
+                    <ul>
+                        <li>Magyar Egészségügyi Szakdolgozói Kamara</li>
+                        <li>Magyar Gyógytornász - Fizioterapeuták Társasága</li>
+                    </ul>
+                    
+                    <div class="about-details">
+                        <p><strong>Nyelvtudás:</strong> angol</p>
+                        <p><strong>Hobbi:</strong> önfejlesztés, olvasás, társasjátékozás, kertészkedés, túrázás, utazás, néptánc, jóga</p>
+                        <p class="motto"><strong>Mottó:</strong> A gerinced tart, tartsd te is egészségesen.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Personal Training Description Section -->
+            <section class="description-section" id="personal-training">
+                <h2>Személyes gyógytorna az otthonában</h2>
+                <div class="keywords">
+                    <span class="keyword">biztonság</span>
+                    <span class="keyword">személyes jelenlét</span>
+                    <span class="keyword">testi korrekció</span>
+                    <span class="keyword">bizalom</span>
+                    <span class="keyword">kapcsolat</span>
+                </div>
+                <div class="description-body">
+                    <p>Személyre szabott gyógytorna az otthonában, ahol:</p>
+                    <ul>
+                        <li>a mozdulatokat szakember segíti, javítja, vezeti,</li>
+                        <li>a gyakorlatok a megszokott környezethez igazodnak,</li>
+                        <li>a fejlődés kényelmes, biztonságos és fokozatos,</li>
+                        <li>a gyógyulás valóban személyes élménnyé válik.</li>
+                    </ul>
+                </div>
+
+                <!-- Pricing Subsection -->
+                <div class="pricing-subsection">
+                    <h3>Időtartam és díjazás:</h3>
+                    <p>10 alkalmas bérlet vásárlása esetén MOST 1 db 30 perces kezelést ingyen kap.</p>
+                    <p>A díjbekérőt a konzultáció előtti napon küldöm, fizetni készpénzzel vagy átutalással tud.</p>
+                    <p>Az ár tartalmazza a kiszállási díjat Veresegyház, Szada, Erdőkertes és Őrbottyán esetén. Ennél távolabbi helyszín esetén + 3000 forint a személyes konzultáció díja.</p>
+                    <p>Az ár a minőségi szakmai figyelmet és a személyre szabott programot tükrözi.</p>
+                </div>
+
+                <!-- FAQ Items -->
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>Mi a személyes gyógytorna az otthonában?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>A személyre szabott gyógytorna az otthonában kényelmes, biztonságos és hatékony módja a mozgásterápiának.</p>
+                        <p>Saját környezetében zajlik a kezelés, ahol segítem a helyes testtartás, mozgásminták és légzéstechnika elsajátítását.</p>
+                        <p>Az első alkalommal állapotfelmérést végzek: átbeszéljük a panaszait, mozgásvizsgálatot végzek, egyéni terápiás tervet készítek, majd ezek alapján összeállítom az első gyakorlatsort, amit együtt begyakorlunk.</p>
+                        <p><strong>A cél, hogy pontosan tudja,</strong></p>
+                        <ul>
+                            <li>👉 hogyan mozduljon helyesen a mindennapokban,</li>
+                            <li>👉 mely gyakorlatokat végezze rendszeresen,</li>
+                            <li>👉 hogyan segítheti a gyógyulást otthoni szokásaival.</li>
+                        </ul>
+                        <p>Az otthonában végzett személyes gyógytorna kényelmes, biztonságos és bizalmi légkört teremt, ahol a figyelem teljes mértékben Önre irányul – így a fejlődés gyorsabb és tartósabb lehet.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>Kinek ajánlom?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p><strong>Ideális választás, ha…</strong></p>
+                        <ul>
+                            <li>saját otthonában, kényelmes és biztonságos környezetben szeretne gyógyulni,</li>
+                            <li>fontos számára a személyes jelenlét és közvetlen korrekció,</li>
+                            <li>nehezebben mozdul ki, vagy a mozgás jelenleg korlátozott,</li>
+                            <li>idősebb hozzátartozójának keres házhoz érkező szakmai segítséget,</li>
+                            <li>műtét vagy sérülés után fokozatos, biztonságos rehabilitációra van szüksége,</li>
+                            <li>saját tempóban, nyugodt légkörben szeretne fejlődni,</li>
+                            <li>bizalmi, személyes kapcsolatot értékel a kezelések során.</li>
+                        </ul>
+                        <p>A személyes, otthoni gyógytorna során a gyakorlatokat saját környezetében sajátítja el – így azok valóban beépülnek a mindennapjaiba.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>Mik a személyes, otthoni forma korlátai?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <ul>
+                            <li>Az otthoni környezetben bizonyos eszközök vagy speciális felszerelések nem mindig állnak rendelkezésre.</li>
+                            <li>Az egyes manuális technikák nehezebben kivitelezhetők, mint a rendelőben.</li>
+                            <li>A hely adottságai (pl. tér, világítás, padlófelület) befolyásolhatják a gyakorlatok kivitelezését.</li>
+                            <li>Hosszabb távú rehabilitációnál vagy összetettebb panasz esetén előfordulhat, hogy rendelői környezetre is szükség van. Ezt mindig jelzem a páciensnek és továbbirányítom a megfelelő kollégához.</li>
+                        </ul>
+                        <p>Ha azonban a helyszín alkalmas és a szükséges tér biztosított, az otthoni gyógytorna hatékonysága nagyon közel áll a rendelőben végzett kezelésekéhez.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question" onclick="toggleFaq(this)">
+                        <span>Hogyan zajlik a folyamat?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Az időpontfoglalást követően telefonon felkeresem és egyeztetjük a részleteket (pl. mi a fő panasza, milyen vizsgálati eredményei vannak, milyen helyszínre, eszközökre lesz szükségünk). A konzultációk személyesen zajlanak az ön otthonában.</p>
+                        <ul>
+                            <li>biztosítson kb. 2x2 méteres szabad területet</li>
+                            <li>egy tornaszőnyeget vagy stabil fekvő felületet</li>
+                            <li>viseljen kényelmes öltözetet (tréning nadrág, póló)</li>
+                            <li>legyen kéznél víz a hidratáláshoz</li>
+                            <li>ügyeljen a jó megvilágításra és a szellőzésre</li>
+                        </ul>
+                        <p><strong>A cél: biztonságos, pontos mozdulatok – személyes irányítással, nyugodt környezetben.</strong></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Motto Section 2 -->
+            <section class="motto-section">
+                <h2>A gyógyulás útja az első mozdulattal kezdődik.</h2>
+            </section>
+
+            <!-- Online Training Description Section -->
+            <section class="description-section" id="online-training">
+                <h2>Online gyógytorna – Egészséges tartás, energikus élet</h2>
+                <div class="keywords">
+                    <span class="keyword">Kényelmes</span>
+                    <span class="keyword">Időtakarékos</span>
+                    <span class="keyword">Személyre szabott</span>
+                    <span class="keyword">Biztonságos</span>
+                    <span class="keyword">Motiváló</span>
+                </div>
+                <div class="description-body">
+                    <p>Személyre szabott online gyógytorna, amely</p>
+                    <ul>
+                        <li>célzottan támogatja a mozgásszervi problémák kezelését</li>
+                        <li>fejleszti a helyes mozgásmintákat</li>
+                        <li>segíti a megkezdett terápia folytatását</li>
+                        <li>hosszútávon motivál a rendszeres mozgásra</li>
+                    </ul>
+                </div>
+
+                <!-- FAQ Items for Online -->
                 <div class="faq-item">
                     <button class="faq-question" onclick="toggleFaq(this)">
                         <span>Mi az online gyógytorna?</span>
@@ -153,7 +327,6 @@
                     </button>
                     <div class="faq-answer">
                         <p>A konzultációk a Google Meet-en zajlanak, az időpontfoglalást követően e-mailben elküldöm a közös linket, melyre kezdéskor csak rá kell kattintania. Az első konzultációnk előtt felkeresem telefonon és egyeztetjük a részleteket (pl. mi a fő panasza, milyen vizsgálati eredményei vannak, mikre lesz szüksége az óránkon).</p>
-                        <p><strong>Fontos előkészületek:</strong></p>
                         <ul>
                             <li>biztosítson kb. 2x2 méteres szabad területet és egy tornaszőnyeget vagy stabil fekvő felületet</li>
                             <li>viseljen kényelmes öltözetet (tréning nadrág, póló)</li>
@@ -165,50 +338,41 @@
                         <p><strong>A cél: biztonságos, pontos mozdulatok – személyes figyelemmel, online térben.</strong></p>
                     </div>
                 </div>
+
+                <!-- Pricing for Online -->
+                <div class="pricing-subsection">
+                    <h3>Időtartam és díjazás:</h3>
+                    <p><strong>45 perc figyelem a Testre, 15 ezer forint befektetés az Egészségbe</strong></p>
+                    <p>10 alkalmas bérlet esetén MOST 12 ezer forint / alkalom.</p>
+                    <p>A díjbekérőt a konzultáció előtti napon küldöm, fizetni átutalással tud.</p>
+                    <p>Az ár a minőségi szakmai figyelmet és a személyre szabott programot tükrözi.</p>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <h3>Jelentkezem online konzultációra:</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Név:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail cím:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Üzenet:</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Küldés</button>
+                    </form>
+                </div>
             </section>
 
-            <!-- About Me Section -->
-            <section class="about-section">
-                <div class="about-header">
-                    <button class="about-toggle" onclick="toggleAbout()">
-                        <h2>Ismerjen meg jobban</h2>
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
-                </div>
-                <div class="about-content" id="aboutContent">
-                    <h3>Szakmai utam</h3>
-                    <p>Szent János Kórház - sebészet, központi intenzív terápia, belgyógyászat</p>
-                    <p>Szívszalon – kardiológia</p>
-                    <p>ArtHuman Központ - otthoni szakellátás Budapest kerületeiben</p>
-                    <p>Patocskai Gyógytorna Stúdió - otthoni szakápolás Zuglóban</p>
-                    <p>Józsefvárosi Szent Kozma Egészségügyi Központ – reumatológia</p>
-                    
-                    <p class="experience-text">Kiemelten reumatológiai, ortopédiai és traumatológiai területen, a tartáshibák kezelésében, a csípő-és térdprotézis műtétet követő rehabilitációban, stroke rehabilitációban, Parkinson-kórban szenvedők terápiájában, hasi műtéten,- mellműtéten,- és alsó végtag amputáción átesett betegek rehabilitációjában, valamint kardiológiai betegségben szenvedő páciensek kezelésében szereztem tapasztalatot.</p>
-                    
-                    <h3>Szakirányú továbbképzések, tanfolyamok:</h3>
-                    <ul>
-                        <li>Medical Flossing</li>
-                        <li>Trigger- és Tenderpont terápia</li>
-                        <li>SMR System</li>
-                        <li>Modern Scoliosis Terápia /Schroth szerint/</li>
-                        <li>McKenzie módszer A modul - a lumbális gerinc</li>
-                        <li>Vertikális mászótréningek és alkalmazásuk a fizioterápiában</li>
-                        <li>Kinematic Taping</li>
-                    </ul>
-                    
-                    <h3>Tagságok:</h3>
-                    <ul>
-                        <li>Magyar Egészségügyi Szakdolgozói Kamara</li>
-                        <li>Magyar Gyógytornász - Fizioterapeuták Társasága</li>
-                    </ul>
-                    
-                    <div class="about-details">
-                        <p><strong>Nyelvtudás:</strong> angol</p>
-                        <p><strong>Hobbi:</strong> önfejlesztés, olvasás, társasjátékozás, kertészkedés, túrázás, utazás, néptánc, jóga</p>
-                        <p class="motto"><strong>Mottó:</strong> A gerinced tart, tartsd te is egészségesen.</p>
-                    </div>
-                </div>
-            </section>
+            <!-- Closing Motto -->
+            <div class="closing-motto">
+                <p>Mozogjon tudatosan – bárhol, bármikor!</p>
+            </div>
 
             <!-- Testimonials Section -->
             <section class="testimonials-section">
@@ -250,50 +414,55 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <h2>Impresszum</h2>
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>A szolgáltató neve:</h3>
-                    <p>Kuruczné Bári Szilvia gyógytornász - fizioterapeuta, egyéni vállalkozó</p>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>A szolgáltató székhelye, telephelye:</h3>
-                    <p><strong>Székhely:</strong> 2112 Veresegyház Kökény utca 64.</p>
-                    <p><strong>Telephely:</strong> a páciens otthona</p>
-                    <p>Veresegyház és környékén személyesen, illetve online</p>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>A szolgáltató elérhetősége</h3>
-                    <p><strong>Kapcsolattartó:</strong> Kuruczné Bári Szilvia</p>
-                    <p><strong>Telefon:</strong> <a href="tel:+36305622334">+36 30 56 22 334</a></p>
-                    <p><strong>E-mail:</strong> <a href="mailto:physiohomeveres@gmail.com">physiohomeveres@gmail.com</a></p>
-                    <p><strong>Internet:</strong> https://www.pysiohome.hu</p>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>A szolgáltatót nyilvántartásba vevő hatóság</h3>
-                    <p>Nemzeti Adó-és Vámhivatal</p>
-                    <p>Alapítás éve: 2025.10.03.</p>
-                    <p>Nyilvántartási szám: 61149018</p>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Adószám</h3>
-                    <p>91442307-1-33</p>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Hatósági engedély</h3>
-                    <p>Pest Vármegyei Kormányhivatal Gödöllői Járási Hivatal (PE-07/NEO/02465-2/2025)</p>
-                    <p>gyógytorna, a betegek otthonában végzett szakellátás</p>
-                </div>
-                
-                <div class="footer-section">
-                    <h3>Kamara</h3>
-                    <p>Magyar Egészségügyi Szakdolgozói Kamara</p>
-                    <p>Pest Vármegyei és Érdi Kereskedelmi és Iparkamara</p>
+            <button class="footer-toggle" onclick="toggleFooter()">
+                <h2>Impresszum</h2>
+                <i class="fas fa-chevron-down"></i>
+            </button>
+            <div class="footer-content-wrapper" id="footerContent">
+                <div class="footer-content">
+                    <div class="footer-section">
+                        <h3>1. A szolgáltató neve:</h3>
+                        <p>Kuruczné Bári Szilvia gyógytornász - fizioterapeuta, egyéni vállalkozó</p>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h3>2. A szolgáltató székhelye, telephelye:</h3>
+                        <p><strong>Székhely:</strong> 2112 Veresegyház Kökény utca 64.</p>
+                        <p><strong>Telephely:</strong> a páciens otthona</p>
+                        <p>Veresegyház és környékén személyesen, illetve online</p>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h3>3. A szolgáltató elérhetősége</h3>
+                        <p><strong>Kapcsolattartó:</strong> Kuruczné Bári Szilvia</p>
+                        <p><strong>Telefon:</strong> <a href="tel:+36305622334">+36 30 56 22 334</a></p>
+                        <p><strong>E-mail:</strong> <a href="mailto:physiohomeveres@gmail.com">physiohomeveres@gmail.com</a></p>
+                        <p><strong>Internet:</strong> https://www.pysiohome.hu</p>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h3>4. A szolgáltatót nyilvántartásba vevő hatóság</h3>
+                        <p>Nemzeti Adó-és Vámhivatal</p>
+                        <p>Alapítás éve: 2025.10.03.</p>
+                        <p>Nyilvántartási szám: 61149018</p>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h3>5. Adószám</h3>
+                        <p>91442307-1-33</p>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h3>6. Hatósági engedély</h3>
+                        <p>Pest Vármegyei Kormányhivatal Gödöllői Járási Hivatal (PE-07/NEO/02465-2/2025)</p>
+                        <p>gyógytorna, a betegek otthonában végzett szakellátás</p>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h3>7. Kamara</h3>
+                        <p>Magyar Egészségügyi Szakdolgozói Kamara</p>
+                        <p>Pest Vármegyei és Érdi Kereskedelmi és Iparkamara</p>
+                    </div>
                 </div>
             </div>
         </div>

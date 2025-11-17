@@ -20,10 +20,30 @@ function toggleFaq(button) {
     }
 }
 
-// About Section Toggle Function
+// About Section Toggle Function (kept for compatibility)
 function toggleAbout() {
     const content = document.getElementById('aboutContent');
     const button = document.querySelector('.about-toggle');
+    
+    if (content && button) {
+        content.classList.toggle('active');
+        button.classList.toggle('active');
+    }
+}
+
+// About Details Toggle Function
+function toggleAboutDetails() {
+    const content = document.getElementById('aboutDetailsContent');
+    const button = document.querySelector('.about-details-toggle');
+    
+    content.classList.toggle('active');
+    button.classList.toggle('active');
+}
+
+// Footer Toggle Function
+function toggleFooter() {
+    const content = document.getElementById('footerContent');
+    const button = document.querySelector('.footer-toggle');
     
     content.classList.toggle('active');
     button.classList.toggle('active');
@@ -49,16 +69,18 @@ function toggleTestimonials() {
     }
 }
 
-// Smooth scroll for anchor links (if needed in the future)
+// Smooth scroll for anchor links
 document.addEventListener('DOMContentLoaded', function() {
-    // Optional: Add smooth scrolling behavior
+    // Add smooth scrolling behavior for internal links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
-            const target = document.querySelector(this.getAttribute('href'));
+            const targetId = this.getAttribute('href');
+            const target = document.querySelector(targetId);
             if (target) {
                 target.scrollIntoView({
-                    behavior: 'smooth'
+                    behavior: 'smooth',
+                    block: 'start'
                 });
             }
         });
