@@ -1,0 +1,133 @@
+### update1 ###
+
+1. change the greens to this: #6DC291
+2. all text with dark blue not black
+3. font: Monserrat
+4. List should use assets/motion-logo.svg as symbol instead of checkmarks
+5. Intro text should start on the top not justified
+6. After the Intro section we need another section for the motto:
+    "Gyógyító mozgás az Otthona kényelmében Személyesen vagy Online"
+7. "- mindig az Ön igényeire hangolva" bigger fontsize
+8. pricing section should be like the motto section and only have the text csak "45 perc figyelem a Testre, 15 ezer forint befektetés az Egészségbe"
+
+9. About section should only shot the sentence by default "2015. Debreceni Egyetem, gyógytornász - fizioterapeuta Bsc"	the rest should be collapsible and assets/about-img.png should be takeing up the sapce on the left side
+
+most a sárga rész jön, persze kékkel írva a főoldalon, a többi lenyílóan
+az 5 szó/kifejezés ilyen hashtaggel legyen vagy valahogy nagyban, ezek kulcsszavak ugye
+
+10. Description section 1 for personal training: 
+    title: Személyes gyógytorna az otthonában
+    keyworks should be highlighted and hashtagged: biztonság, személyes jelenlét, testi korrekció, bizalom, kapcsolat 
+    Body: Személyre szabott gyógytorna az otthonában, ahol:
+        >  a mozdulatokat szakember segíti, javítja, vezeti,
+        >  a gyakorlatok a megszokott környezethez igazodnak,
+        >  a fejlődés kényelmes, biztonságos és fokozatos,
+        >  a gyógyulás valóban személyes élménnyé válik.
+    Pricing subsection: -should basically move the original pricing secition here without the first sentence:
+        Időtartam és díjazás:
+        10 alkalmas bérlet vásárlása esetén MOST 1 db 30 perces kezelést ingyen kap.
+        A díjbekérőt a konzultáció előtti napon küldöm, fizetni készpénzzel vagy átutalással tud.
+        Az ár tartalmazza a kiszállási díjat Veresegyház, Szada, Erdőkertes és Őrbottyán esetén. Ennél távolabbi helyszín esetén + 3000 forint a személyes konzultáció díja.
+        Az ár a minőségi szakmai figyelmet és a személyre szabott programot tükrözi.
+    FAQ subsection: - move the original FAQ section here remove the title and keep the same style with the collapsibles
+        Mi a személyes gyógytorna az otthonában?
+        A személyre szabott gyógytorna az otthonában kényelmes, biztonságos és hatékony módja a mozgásterápiának.
+        Saját környezetében zajlik a kezelés, ahol segítem a helyes testtartás, mozgásminták és légzéstechnika elsajátítását.
+        Az első alkalommal állapotfelmérést végzek: átbeszéljük a panaszait, mozgásvizsgálatot végzek, egyéni terápiás tervet készítek, majd ezek alapján összeállítom az első gyakorlatsort, amit együtt begyakorlunk.
+        A cél, hogy pontosan tudja,
+        👉 hogyan mozduljon helyesen a mindennapokban,
+        👉 mely gyakorlatokat végezze rendszeresen,
+        👉 hogyan segítheti a gyógyulást otthoni szokásaival.
+        Az otthonában végzett személyes gyógytorna kényelmes, biztonságos és bizalmi légkört teremt, ahol a figyelem teljes mértékben Önre irányul – így a fejlődés gyorsabb és tartósabb lehet.
+
+        Kinek ajánlom?
+        Ideális választás, ha…
+        * saját otthonában, kényelmes és biztonságos környezetben szeretne gyógyulni,
+        * fontos számára a személyes jelenlét és közvetlen korrekció,
+        * nehezebben mozdul ki, vagy a mozgás jelenleg korlátozott,
+        * idősebb hozzátartozójának keres házhoz érkező szakmai segítséget,
+        * műtét vagy sérülés után fokozatos, biztonságos rehabilitációra van szüksége,
+        * saját tempóban, nyugodt légkörben szeretne fejlődni,
+        * bizalmi, személyes kapcsolatot értékel a kezelések során.
+        A személyes, otthoni gyógytorna során a gyakorlatokat saját környezetében sajátítja el – így azok valóban beépülnek a mindennapjaiba.
+
+        Mik a személyes, otthoni forma korlátai?
+        * Az otthoni környezetben bizonyos eszközök vagy speciális felszerelések nem mindig állnak rendelkezésre.
+        * Az egyes manuális technikák nehezebben kivitelezhetők, mint a rendelőben.
+        * A hely adottságai (pl. tér, világítás, padlófelület) befolyásolhatják a gyakorlatok kivitelezését.
+        * Hosszabb távú rehabilitációnál vagy összetettebb panasz esetén előfordulhat, hogy rendelői környezetre is szükség van. Ezt mindig jelzem a páciensnek és továbbirányítom a megfelelő kollégához.
+        Ha azonban a helyszín alkalmas és a szükséges tér biztosított, az otthoni gyógytorna hatékonysága nagyon közel áll a rendelőben végzett kezelésekéhez.
+
+        Hogyan zajlik a folyamat?
+        Az időpontfoglalást követően telefonon felkeresem és egyeztetjük a részleteket (pl. mi a fő panasza, milyen vizsgálati eredményei vannak, milyen helyszínre, eszközökre lesz szükségünk). A konzultációk személyesen zajlanak az ön otthonában.  
+        * biztosítson kb. 2x2 méteres szabad területet 
+        * egy tornaszőnyeget vagy stabil fekvő felületet
+        * viseljen kényelmes öltözetet (tréning nadrág, póló)
+        * legyen kéznél víz a hidratáláshoz
+        * ügyeljen a jó megvilágításra és a szellőzésre
+        A cél: biztonságos, pontos mozdulatok – személyes irányítással, nyugodt környezetben.
+
+11. Another Motto section:
+    A gyógyulás útja az első mozdulattal kezdődik.
+
+12. Description section 2 for online training: 
+    title: Online gyógytorna – Egészséges tartás, energikus élet
+    same style keywords as before: Kényelmes,Időtakarékos, Személyre szabott, Biztonságos, Motiváló
+    Személyre szabott online gyógytorna, amely
+    >	célzottan támogatja a mozgásszervi problémák kezelését
+    >	fejleszti a helyes mozgásmintákat
+    >	segíti a megkezdett terápia folytatását 
+    >	hosszútávon motivál a rendszeres mozgásra
+ same template FAQ without calling it FAQ:
+Mi az online gyógytorna?
+Az online gyógytorna egy virtuális, személyre szabott konzultáció, amelyen az otthonából, kényelmes és biztonságos környezetben vehet részt.
+Amennyiben lehetséges, első alkalommal a személyes állapotfelmérést javaslom.
+A beszélgetés során áttekintjük a panaszait, mozgásvizsgálatot végzek, terápiás tervet készítek, majd ezek alapján összeállítom az első gyakorlatsort, amit együtt begyakorlunk.
+A cél, hogy pontosan tudja,
+👉 mit és hogyan érdemes végeznie,
+👉 mire figyeljen a mindennapi mozgásban,
+👉 milyen életmódbeli változtatások segíthetik a javulást.
+Az online térben is teljes értékű szakmai figyelmet kap, ez a mód megtanít önállóan figyelni a testére – így a javulás tartósabbá válik.
+
+
+Kinek ajánlom?
+Ideális választás, ha...
+* ismerős, biztonságos környezetben szeretne gyógyulni
+* nem szeretne pénzt és időt áldozni az utazásra
+* távolabb él, és nem tud személyesen fogadni az otthonában
+* a munkahelyén szeretne egy napközbeni mozgást beiktatni
+* külföldön tartózkodik, de tanácsra van szüksége,
+* kisbabával van otthon, és így kényelmesebb számára,
+* korábban már járt nálam, és most kontrollra vagy korrekcióra érkezne.
+A gyakorlatok helyes kivitelezése online is könnyen elsajátítható – a konzultáció menete szinte teljesen megegyezik a személyes találkozóval.
+
+Mik az online forma korlátai?
+* Bizonyos vizsgálatok és manuális technikák online nem alkalmazhatók.
+* A konzultáció főként a gyakorlatokra, a korrekciókra, valamint tanácsadásra fókuszál.
+* A személyes jelenlétem hiánya nagyobb odafigyelést és tudatosságot igényel a páciens részéről.
+* Fontos a megfelelő technikai háttér: internet, fény, kamera, hangminőség.
+Ha ez adott, az online óra hatékonysága meglepően közel áll a személyeshez.
+
+Hogyan zajlik a folyamat?
+A konzultációk a Google Meet-en zajlanak, az időpontfoglalást követően e-mailben elküldöm a közös linket, melyre kezdéskor csak rá kell kattintania. Az első konzultációnk előtt felkeresem telefonon és egyeztetjük a részleteket (pl. mi a fő panasza, milyen vizsgálati eredményei vannak, mikre lesz szüksége az óránkon). 
+* biztosítson kb. 2x2 méteres szabad területet és egy tornaszőnyeget vagy stabil fekvő felületet
+* viseljen kényelmes öltözetet (tréning nadrág, póló)
+* ügyeljen szervezete hidratálására
+* használjon feltöltött állapotú laptopot, mert ennek jól állítható a kamerája
+* ügyeljen a jó megvilágításra
+* használjon stabil internetkapcsolatot.
+A cél: biztonságos, pontos mozdulatok – személyes figyelemmel, online térben.
+
+
+Időtartam és díjazás:
+45 perc figyelem a Testre, 15 ezer forint befektetés az Egészségbe
+10 alkalmas bérlet esetén MOST 12 ezer forint / alkalom.
+A díjbekérőt a konzultáció előtti napon küldöm, fizetni átutalással tud.
+Az ár a minőségi szakmai figyelmet és a személyre szabott programot tükrözi.
+Jelentkezem online konzultációra: űrlapra gondoltam itt
+Név, e-mail cím, üzenet
+Mozogjon tudatosan – bárhol, bármikor!	ez egy kiemelt mondatként a főoldalra, itt a vége 
+
+13. The words of the motto "Otthona kényelmében Személyesen" and "Online" should be highlighted and clickable to take the user to the Description sections 1 and 2
+
+14. Footer should be collapsible and discrete.
