@@ -90,7 +90,7 @@
                     <li>Egészségmegőrző program</li>
                     <li>Gerinctorna és tartásjavító tréning, core tréning</li>
                     <li>Kineziológiai tapaszolás - taping</li>
-                    <li>Fascialazítás masszázshengerrel</li>
+                    <li>Fascialazítás manuálisan és eszközökkel</li>
                     <li>Trigger –és tenderpont terápia – az izomcsomók oldására</li>
                     <li>McKenzie torna – lumbális gerincproblémák esetén</li>
                     <li>Mozgásprogram kismamáknak, gátizom torna</li>
@@ -103,15 +103,16 @@
                 </ul>
 
                 <div class="pricing">
-                    <p><strong>45 perc figyelem a Testre, 15 ezer forint befektetés az Egészségbe</strong></p>
+                    <p><strong>45 perc figyelem a Testre, <br>15 ezer forint befektetés az Egészségbe</strong></p>
                 </div>
             </section>
 
             <!-- About Me Section -->
             <section class="about-section-new">
                 <h2>Szakmai utam</h2>
+                <p class="about-initial">2015. Debreceni Egyetem, gyógytornász - fizioterapeuta Bsc</p>
                 <button class="about-details-toggle" onclick="toggleAboutDetails()">
-                    <p class="about-initial">2015. Debreceni Egyetem, gyógytornász - fizioterapeuta Bsc</p>
+                    <span>Részletek</span>
                     <i class="fas fa-chevron-down"></i>
                 </button>
                 <div class="about-details-content" id="aboutDetailsContent">
@@ -137,8 +138,8 @@
                     
                     <h3>Tagságok:</h3>
                     <ul>
-                        <li>Magyar Egészségügyi Szakdolgozói Kamara</li>
-                        <li>Magyar Gyógytornász - Fizioterapeuták Társasága</li>
+                        <li><a href="https://meszk.hu/">Magyar Egészségügyi Szakdolgozói Kamara<a/></li>
+                        <li><a href="https://mgyft.hu/">Magyar Gyógytornász - Fizioterapeuták Társasága</a></li>
                     </ul>
                     
                     <div class="about-details">
@@ -149,15 +150,50 @@
                 </div>
             </section>
 
+            <!-- Testimonials Section -->
+            <section class="testimonials-section">
+                <h2>Pácienseim visszajelzései:</h2>
+                <div class="testimonial-visible">
+                    <div class="testimonial">
+                        <p>„Lényegre törő, pontos, biztonságban éreztem magam vele. A gerincem újjáéledt, köszönöm."</p>
+                        <p class="testimonial-author">- Nóra</p>
+                    </div>
+                    <div class="testimonial">
+                        <p>„Hálás vagyok a rengeteg információért, melyeket átadott. Végre újra könnyedén mozog a karom."</p>
+                        <p class="testimonial-author">- F. Ági</p>
+                    </div>
+                </div>
+                
+                <button class="show-more-btn" onclick="toggleTestimonials()" id="testimonialsBtn">
+                    <span id="testimonialsBtnText">További vélemények</span>
+                    <i class="fas fa-chevron-down" id="testimonialsBtnIcon"></i>
+                </button>
+                
+                <div class="testimonial-hidden" id="moreTestimonials">
+                    <div class="testimonial">
+                        <p>„Szilvi a csípőprotézis műtétem után járt hozzám. Megnyugtatató volt, hogy a saját környezetemben tudott válaszolni a kérdéseimre az új helyzetben, pl. hogy jussak fel az emeletre, hogy vegyem fel a zoknimat."</p>
+                        <p class="testimonial-author">- K. László</p>
+                    </div>
+                    <div class="testimonial">
+                        <p>„A derékfájásom miatt kerestem gyógytornászt a reumatológusom javaslatára. Gerincsérv előtti állapotban kezdtünk együtt dolgozni, nagyon jó hangulatban teltek az órák, sokat tanultam tőle a gerincemről. A gyakorlatokat ma is végzem, ha bármi kérdésem van, online átbeszéljük és kapok új feladatot, ha szükséges."</p>
+                        <p class="testimonial-author">- Lívia</p>
+                    </div>
+                    <div class="testimonial">
+                        <p>„Szilvia foglalkozásain az ember egyetlen porcikája sem ússza meg az alapos átmozgatást, de megéri, mert éveket fiatalít. A gyakorlatok mindenkinek testreszabottak, 60 év feletti korban is csak ajánlani tudom."</p>
+                        <p class="testimonial-author">- Péter</p>
+                    </div>
+                </div>
+            </section>
+
             <!-- Personal Training Description Section -->
             <section class="description-section" id="personal-training">
                 <h2>Személyes gyógytorna az otthonában</h2>
                 <div class="keywords">
-                    <span class="keyword">biztonság</span>
-                    <span class="keyword">személyes jelenlét</span>
-                    <span class="keyword">testi korrekció</span>
-                    <span class="keyword">bizalom</span>
-                    <span class="keyword">kapcsolat</span>
+                    <span class="keyword">Biztonság</span>
+                    <span class="keyword">Személyes jelenlét</span>
+                    <span class="keyword">Testi korrekció</span>
+                    <span class="keyword">Bizalom</span>
+                    <span class="keyword">Kapcsolat</span>
                 </div>
                 <div class="description-body">
                     <p>Személyre szabott gyógytorna az otthonában, ahol:</p>
@@ -172,9 +208,9 @@
                 <!-- Pricing Subsection -->
                 <div class="pricing-subsection">
                     <h3>Időtartam és díjazás:</h3>
-                    <p>10 alkalmas bérlet vásárlása esetén MOST 1 db 30 perces kezelést ingyen kap.</p>
+                    <p>45 perc figyelem a Testre, 15 ezer forint befektetés az Egészségbe</p>
                     <p>A díjbekérőt a konzultáció előtti napon küldöm, fizetni készpénzzel vagy átutalással tud.</p>
-                    <p>Az ár tartalmazza a kiszállási díjat Veresegyház, Szada, Erdőkertes és Őrbottyán esetén. Ennél távolabbi helyszín esetén + 3000 forint a személyes konzultáció díja.</p>
+                    <p>Az ár tartalmazza a kiszállási díjat Veresegyház, Szada, Erdőkertes és Őrbottyán területén. Ennél távolabbi helyszín esetén + 3000 forint a személyes konzultáció díja.</p>
                     <p>Az ár a minőségi szakmai figyelmet és a személyre szabott programot tükrözi.</p>
                 </div>
 
@@ -187,14 +223,14 @@
                     <div class="faq-answer">
                         <p>A személyre szabott gyógytorna az otthonában kényelmes, biztonságos és hatékony módja a mozgásterápiának.</p>
                         <p>Saját környezetében zajlik a kezelés, ahol segítem a helyes testtartás, mozgásminták és légzéstechnika elsajátítását.</p>
-                        <p>Az első alkalommal állapotfelmérést végzek: átbeszéljük a panaszait, mozgásvizsgálatot végzek, egyéni terápiás tervet készítek, majd ezek alapján összeállítom az első gyakorlatsort, amit együtt begyakorlunk.</p>
+                        <p>Az első alkalommal <strong>állapotfelmérést</strong> végzek: átbeszéljük a panaszait, mozgásvizsgálatot végzek, <strong>egyéni terápiás tervet</strong> készítek, majd ezek alapján összeállítom az első gyakorlatsort, amit együtt begyakorlunk.</p>
                         <p><strong>A cél, hogy pontosan tudja,</strong></p>
-                        <ul>
-                            <li>👉 hogyan mozduljon helyesen a mindennapokban,</li>
-                            <li>👉 mely gyakorlatokat végezze rendszeresen,</li>
-                            <li>👉 hogyan segítheti a gyógyulást otthoni szokásaival.</li>
+                        <ul class="tilde-list">
+                            <li>hogyan mozduljon helyesen a mindennapokban,</li>
+                            <li>mely gyakorlatokat végezze rendszeresen,</li>
+                            <li>hogyan segítheti a gyógyulást otthoni szokásaival.</li>
                         </ul>
-                        <p>Az otthonában végzett személyes gyógytorna kényelmes, biztonságos és bizalmi légkört teremt, ahol a figyelem teljes mértékben Önre irányul – így a fejlődés gyorsabb és tartósabb lehet.</p>
+                        <p>Az otthonában végzett személyes gyógytorna <strong>kényelmes, biztonságos és bizalmi légkört</strong> teremt, ahol a figyelem teljes mértékben Önre irányul – így <strong>a fejlődés gyorsabb és tartósabb</strong> lehet.</p>
                     </div>
                 </div>
 
@@ -205,7 +241,7 @@
                     </button>
                     <div class="faq-answer">
                         <p><strong>Ideális választás, ha…</strong></p>
-                        <ul>
+                        <ul class="tilde-list">
                             <li>saját otthonában, kényelmes és biztonságos környezetben szeretne gyógyulni,</li>
                             <li>fontos számára a személyes jelenlét és közvetlen korrekció,</li>
                             <li>nehezebben mozdul ki, vagy a mozgás jelenleg korlátozott,</li>
@@ -214,7 +250,7 @@
                             <li>saját tempóban, nyugodt légkörben szeretne fejlődni,</li>
                             <li>bizalmi, személyes kapcsolatot értékel a kezelések során.</li>
                         </ul>
-                        <p>A személyes, otthoni gyógytorna során a gyakorlatokat saját környezetében sajátítja el – így azok valóban beépülnek a mindennapjaiba.</p>
+                        <p><strong>A személyes, otthoni gyógytorna során a gyakorlatokat saját környezetében sajátítja el – így azok valóban beépülnek a mindennapjaiba.</strong></p>
                     </div>
                 </div>
 
@@ -224,13 +260,13 @@
                         <i class="fas fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <ul>
+                        <ul class="tilde-list">
                             <li>Az otthoni környezetben bizonyos eszközök vagy speciális felszerelések nem mindig állnak rendelkezésre.</li>
                             <li>Az egyes manuális technikák nehezebben kivitelezhetők, mint a rendelőben.</li>
                             <li>A hely adottságai (pl. tér, világítás, padlófelület) befolyásolhatják a gyakorlatok kivitelezését.</li>
                             <li>Hosszabb távú rehabilitációnál vagy összetettebb panasz esetén előfordulhat, hogy rendelői környezetre is szükség van. Ezt mindig jelzem a páciensnek és továbbirányítom a megfelelő kollégához.</li>
                         </ul>
-                        <p>Ha azonban a helyszín alkalmas és a szükséges tér biztosított, az otthoni gyógytorna hatékonysága nagyon közel áll a rendelőben végzett kezelésekéhez.</p>
+                        <p><strong>Ha azonban a helyszín alkalmas és a szükséges tér biztosított, az otthoni gyógytorna hatékonysága nagyon közel áll a rendelőben végzett kezelésekéhez.</strong></p>
                     </div>
                 </div>
 
@@ -241,7 +277,7 @@
                     </button>
                     <div class="faq-answer">
                         <p>Az időpontfoglalást követően telefonon felkeresem és egyeztetjük a részleteket (pl. mi a fő panasza, milyen vizsgálati eredményei vannak, milyen helyszínre, eszközökre lesz szükségünk). A konzultációk személyesen zajlanak az ön otthonában.</p>
-                        <ul>
+                        <ul class="tilde-list">
                             <li>biztosítson kb. 2x2 méteres szabad területet</li>
                             <li>egy tornaszőnyeget vagy stabil fekvő felületet</li>
                             <li>viseljen kényelmes öltözetet (tréning nadrág, póló)</li>
@@ -278,6 +314,15 @@
                     </ul>
                 </div>
 
+                <!-- Pricing for Online -->
+                <div class="pricing-subsection">
+                    <h3>Időtartam és díjazás:</h3>
+                    <p>45 perc figyelem a Testre, 15 ezer forint befektetés az Egészségbe</p>
+                    <p>10 alkalmas bérlet esetén MOST 12 ezer forint / alkalom.</p>
+                    <p>A díjbekérőt a konzultáció előtti napon küldöm, fizetni átutalással tud.</p>
+                    <p>Az ár a minőségi szakmai figyelmet és a személyre szabott programot tükrözi.</p>
+                </div>
+
                 <!-- FAQ Items for Online -->
                 <div class="faq-item">
                     <button class="faq-question" onclick="toggleFaq(this)">
@@ -289,12 +334,12 @@
                         <p>Amennyiben lehetséges, első alkalommal a személyes állapotfelmérést javaslom.</p>
                         <p>A beszélgetés során áttekintjük a panaszait, mozgásvizsgálatot végzek, terápiás tervet készítek, majd ezek alapján összeállítom az első gyakorlatsort, amit együtt begyakorlunk.</p>
                         <p><strong>A cél, hogy pontosan tudja,</strong></p>
-                        <ul>
-                            <li>👉 mit és hogyan érdemes végeznie,</li>
-                            <li>👉 mire figyeljen a mindennapi mozgásban,</li>
-                            <li>👉 milyen életmódbeli változtatások segíthetik a javulást.</li>
+                        <ul class="tilde-list">
+                            <li>mit és hogyan érdemes végeznie,</li>
+                            <li>mire figyeljen a mindennapi mozgásban,</li>
+                            <li>milyen életmódbeli változtatások segíthetik a javulást.</li>
                         </ul>
-                        <p>Az online térben is teljes értékű szakmai figyelmet kap, ez a mód megtanít önállóan figyelni a testére – így a javulás tartósabbá válik.</p>
+                        <p><strong>Az online térben is teljes értékű szakmai figyelmet kap, ez a mód megtanít önállóan figyelni a testére – így a javulás tartósabbá válik.</strong></p>
                     </div>
                 </div>
 
@@ -305,7 +350,7 @@
                     </button>
                     <div class="faq-answer">
                         <p><strong>Ideális választás, ha...</strong></p>
-                        <ul>
+                        <ul class="tilde-list">
                             <li>ismerős, biztonságos környezetben szeretne gyógyulni</li>
                             <li>nem szeretne pénzt és időt áldozni az utazásra</li>
                             <li>távolabb él, és nem tud személyesen fogadni az otthonában</li>
@@ -314,7 +359,7 @@
                             <li>kisbabával van otthon, és így kényelmesebb számára,</li>
                             <li>korábban már járt nálam, és most kontrollra vagy korrekcióra érkezne.</li>
                         </ul>
-                        <p>A gyakorlatok helyes kivitelezése online is könnyen elsajátítható – a konzultáció menete szinte teljesen megegyezik a személyes találkozóval.</p>
+                        <p><strong>A gyakorlatok helyes kivitelezése online is könnyen elsajátítható – a konzultáció menete szinte teljesen megegyezik a személyes találkozóval.</strong></p>
                     </div>
                 </div>
 
@@ -324,13 +369,13 @@
                         <i class="fas fa-chevron-down"></i>
                     </button>
                     <div class="faq-answer">
-                        <ul>
+                        <ul class="tilde-list">
                             <li>Bizonyos vizsgálatok és manuális technikák online nem alkalmazhatók.</li>
                             <li>A konzultáció főként a gyakorlatokra, a korrekciókra, valamint tanácsadásra fókuszál.</li>
                             <li>A személyes jelenlétem hiánya nagyobb odafigyelést és tudatosságot igényel a páciens részéről.</li>
                             <li>Fontos a megfelelő technikai háttér: internet, fény, kamera, hangminőség.</li>
                         </ul>
-                        <p>Ha ez adott, az online óra hatékonysága meglepően közel áll a személyeshez.</p>
+                        <p><strong>Ha ez adott, az online óra hatékonysága meglepően közel áll a személyeshez.</strong></p>
                     </div>
                 </div>
 
@@ -341,7 +386,7 @@
                     </button>
                     <div class="faq-answer">
                         <p>A konzultációk a Google Meet-en zajlanak, az időpontfoglalást követően e-mailben elküldöm a közös linket, melyre kezdéskor csak rá kell kattintania. Az első konzultációnk előtt felkeresem telefonon és egyeztetjük a részleteket (pl. mi a fő panasza, milyen vizsgálati eredményei vannak, mikre lesz szüksége az óránkon).</p>
-                        <ul>
+                        <ul class="tilde-list">
                             <li>biztosítson kb. 2x2 méteres szabad területet és egy tornaszőnyeget vagy stabil fekvő felületet</li>
                             <li>viseljen kényelmes öltözetet (tréning nadrág, póló)</li>
                             <li>ügyeljen szervezete hidratálására</li>
@@ -353,55 +398,13 @@
                     </div>
                 </div>
 
-                <!-- Pricing for Online -->
-                <div class="pricing-subsection">
-                    <h3>Időtartam és díjazás:</h3>
-                    <p><strong>45 perc figyelem a Testre, 15 ezer forint befektetés az Egészségbe</strong></p>
-                    <p>10 alkalmas bérlet esetén MOST 12 ezer forint / alkalom.</p>
-                    <p>A díjbekérőt a konzultáció előtti napon küldöm, fizetni átutalással tud.</p>
-                    <p>Az ár a minőségi szakmai figyelmet és a személyre szabott programot tükrözi.</p>
-                </div>
             </section>
 
             <!-- Closing Motto -->
-            <div class="closing-motto">
-                <p>Mozogjon tudatosan – bárhol, bármikor!</p>
-            </div>
-
-            <!-- Testimonials Section -->
-            <section class="testimonials-section">
-                <h2>Pácienseim visszajelzései:</h2>
-                <div class="testimonial-visible">
-                    <div class="testimonial">
-                        <p>„Lényegre törő, pontos, biztonságban éreztem magam vele. A gerincem újjáéledt, köszönöm."</p>
-                        <p class="testimonial-author">- Nóra</p>
-                    </div>
-                    <div class="testimonial">
-                        <p>„Hálás vagyok a rengeteg információért, melyeket átadott. Végre újra könnyedén mozog a karom."</p>
-                        <p class="testimonial-author">- F. Ági</p>
-                    </div>
-                </div>
-                
-                <button class="show-more-btn" onclick="toggleTestimonials()" id="testimonialsBtn">
-                    <span id="testimonialsBtnText">További vélemények</span>
-                    <i class="fas fa-chevron-down" id="testimonialsBtnIcon"></i>
-                </button>
-                
-                <div class="testimonial-hidden" id="moreTestimonials">
-                    <div class="testimonial">
-                        <p>„Szilvi a csípőprotézis műtétem után járt hozzám. Megnyugtatató volt, hogy a saját környezetemben tudott válaszolni a kérdéseimre az új helyzetben, pl. hogy jussak fel az emeletre, hogy vegyem fel a zoknimat."</p>
-                        <p class="testimonial-author">- K. László</p>
-                    </div>
-                    <div class="testimonial">
-                        <p>„A derékfájásom miatt kerestem gyógytornászt a reumatológusom javaslatára. Gerincsérv előtti állapotban kezdtünk együtt dolgozni, nagyon jó hangulatban teltek az órák, sokat tanultam tőle a gerincemről. A gyakorlatokat ma is végzem, ha bármi kérdésem van, online átbeszéljük és kapok új feladatot, ha szükséges."</p>
-                        <p class="testimonial-author">- Lívia</p>
-                    </div>
-                    <div class="testimonial">
-                        <p>„Szilvia foglalkozásain az ember egyetlen porcikája sem ússza meg az alapos átmozgatást, de megéri, mert éveket fiatalít. A gyakorlatok mindenkinek testreszabottak, 60 év feletti korban is csak ajánlani tudom."</p>
-                        <p class="testimonial-author">- Péter</p>
-                    </div>
-                </div>
+            <section class="motto-section">
+                <h2>Mozogjon tudatosan – bárhol, bármikor!</h2>
             </section>
+
         </div>
     </main>
 

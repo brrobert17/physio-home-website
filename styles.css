@@ -30,6 +30,9 @@ body {
     background-color: #10405D;
     color: white;
     padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -254,12 +257,12 @@ body {
     margin-bottom: 12px;
 }
 
-.faq-answer ul {
+.faq-answer ul:not(.tilde-list) {
     list-style: none;
     margin: 15px 0;
 }
 
-.faq-answer ul li {
+.faq-answer ul:not(.tilde-list) li {
     padding: 5px 0;
 }
 
@@ -503,16 +506,18 @@ body {
 }
 
 .motto-section .highlight {
-    color: #6DC291;
+    color: white;
     font-weight: 700;
     cursor: pointer;
     text-decoration: none;
     transition: color 0.3s;
     border-bottom: 2px solid transparent;
+    background: #6DC291;
+    border-radius: 5px;
 }
 
 .motto-section .highlight:hover {
-    color: #8ed4ab;
+    color: #10405D;
     border-bottom: 2px solid #6DC291;
 }
 
@@ -526,7 +531,7 @@ body {
     content: "";
     width: 20px;
     height: 20px;
-    background-image: url('./assets/motion-icon.svg');
+    background-image: url('./assets/tilde-svg.svg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -596,12 +601,43 @@ body {
 }
 
 .description-body ul li:before {
-    content: ">";
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/tilde-svg.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
     position: absolute;
     left: 0;
-    color: #6DC291;
-    font-weight: bold;
-    font-size: 1.2em;
+    top: 10px;
+}
+
+/* Tilde icon list - reusable class */
+.tilde-list {
+    list-style: none;
+    margin: 15px 0;
+}
+
+.tilde-list li {
+    padding: 8px 0 8px 30px;
+    position: relative;
+    color: #10405D;
+}
+
+.tilde-list li:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url('./assets/tilde-svg.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 10px;
 }
 
 .pricing-subsection {
@@ -659,25 +695,36 @@ body {
     color: #10405D;
     font-size: 1.1em;
     font-weight: 500;
+    margin-bottom: 15px;
 }
 
 .about-details-toggle {
-    width: 100%;
     background: transparent;
     border: none;
-    padding: 15px 0;
-    display: flex;
-    justify-content: space-between;
+    padding: 8px 0;
+    display: inline-flex;
     align-items: center;
+    gap: 8px;
     cursor: pointer;
     color: #6DC291;
     font-weight: 600;
-    font-size: 1.05em;
+    font-size: 0.95em;
+    transition: color 0.3s;
+    margin-bottom: 10px;
+}
+
+.about-details-toggle:hover {
+    color: #10405D;
 }
 
 .about-details-toggle i {
     color: #6DC291;
-    transition: transform 0.3s;
+    transition: transform 0.3s, color 0.3s;
+    font-size: 0.9em;
+}
+
+.about-details-toggle:hover i {
+    color: #10405D;
 }
 
 .about-details-toggle.active i {
@@ -719,6 +766,10 @@ body {
     padding: 5px 0 5px 20px;
     position: relative;
     color: #10405D;
+}
+
+.about-details-content ul li a{
+    color: #6DC291;
 }
 
 .about-details-content ul li:before {
