@@ -49,26 +49,6 @@ function toggleFooter() {
     button.classList.toggle('active');
 }
 
-// Testimonials Toggle Function
-function toggleTestimonials() {
-    const moreTestimonials = document.getElementById('moreTestimonials');
-    const button = document.getElementById('testimonialsBtn');
-    const buttonText = document.getElementById('testimonialsBtnText');
-    const buttonIcon = document.getElementById('testimonialsBtnIcon');
-    
-    const isActive = moreTestimonials.classList.contains('active');
-    
-    if (isActive) {
-        moreTestimonials.classList.remove('active');
-        button.classList.remove('active');
-        buttonText.textContent = 'További vélemények';
-    } else {
-        moreTestimonials.classList.add('active');
-        button.classList.add('active');
-        buttonText.textContent = 'Kevesebb vélemény';
-    }
-}
-
 // Smooth scroll for anchor links
 document.addEventListener('DOMContentLoaded', function() {
     // Add smooth scrolling behavior for internal links
